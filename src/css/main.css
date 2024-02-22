@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar start */
+.navbar{
+    background-color: #F4CE14;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    color: white;
+}
+.navbar.color-active{
+    background-color: #F4CE14;
+    padding: 3px 10px 3px 10px;
+    font-size: 15px;
+}
+
+/* navbar end */
+
+/* content home start */
+
+/* content home end */
