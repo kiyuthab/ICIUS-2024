@@ -1,8 +1,10 @@
 import React from 'react';
+import {Button} from 'react-bootstrap';
 import imgHero from "../assets/img/hero.jpg";
 import CardAbstract from './ContentAbstract';
 
 const MainAbstract = ()=>{
+    
     return(
         <div>
             <div className="position-relative">
@@ -25,6 +27,7 @@ const MainAbstract = ()=>{
                 </h1>
             </div>
             <CardAbstract />
+            
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import imgHero from "../assets/img/hero.jpg";
-import {Container, Table} from 'react-bootstrap';
+import {Container, Table, Row, Col} from 'react-bootstrap';
 
 const MainImportantDates = ()=>{
     return (
@@ -32,7 +32,14 @@ const MainImportantDates = ()=>{
                         <tr>
                             <td>Extended Abstract submission :</td>
                             <td>
-                                <h3 className='fs-6'>Mar 1, 2024</h3>
+                                <Row>
+                                    <Col>
+                                        <h3 className='fs-6 text-decoration-line-through' style={{color: 'red'}}>Mar 1, 2024</h3>
+                                    </Col>
+                                    <Col>
+                                        <h3 className='fs-6'>Apr 1, 2024</h3>
+                                    </Col>
+                                </Row>
                             </td>
                         </tr>
                         <tr> 
@@ -40,7 +47,14 @@ const MainImportantDates = ()=>{
                                 Full paper submission :                          
                             </td>
                             <td>
-                                <h3 className='fs-6'>Apr 1, 2024</h3>
+                                <Row>
+                                    <Col>
+                                        <h3 className='fs-6 text-decoration-line-through' style={{color: 'red'}}>Apr 1, 2024</h3>
+                                    </Col>
+                                    <Col>
+                                        <h3 className='fs-6'>May 1, 2024</h3>
+                                    </Col>
+                                </Row>
                             </td>
                         </tr>
                         <tr>
@@ -48,13 +62,27 @@ const MainImportantDates = ()=>{
                                 Acceptance notification :
                             </td>
                             <td>
-                                <h3 className='fs-6'>May 1, 2024</h3>
+                                <Row>
+                                    <Col>
+                                        <h3 className='fs-6 text-decoration-line-through' style={{color: 'red'}}>May 1, 2024</h3>
+                                    </Col>
+                                    <Col>
+                                        <h3 className='fs-6'>June 1, 2024</h3>
+                                    </Col>
+                                </Row>
                             </td>
                         </tr>
                         <tr>
                             <td>Final paper submission : </td>
                             <td>
-                                <h3 className='fs-6'>June 1, 2024</h3>
+                                <Row>
+                                    <Col>
+                                        <h3 className='fs-6 text-decoration-line-through' style={{color: 'red'}}>June 1, 2024</h3>
+                                    </Col>
+                                    <Col>
+                                        <h3 className='fs-6'>July 1, 2024</h3>
+                                    </Col>
+                                </Row>
                             </td>
                         </tr>
                     </tbody>

@@ -71,6 +71,7 @@ const MainRegis = () =>{
                     height: '2px',
                     borderRadius: '5px',
                 }}></div>
+                
             </Container>
         </div>
     )

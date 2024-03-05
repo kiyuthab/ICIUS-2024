@@ -2,6 +2,8 @@ import React from 'react';
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import {Container, Card, Button, Row, Col} from "react-bootstrap";
 import {Link} from 'react-router-dom';
+import Download from '../assets/file/TemplateAbstractICIUS2024rev3.docx';
+
 
 const CardAbstract = ()=>{
     return (
@@ -30,7 +32,7 @@ const CardAbstract = ()=>{
                         </Card>
                     </Col>
                     <Col md={8}>
-                        <Card className='p-4' style={{
+                        <Card className='px-4' style={{
                             border: 'none'
                         }}>
                             <Card.Body>
@@ -41,8 +43,11 @@ const CardAbstract = ()=>{
                                         <li>Name of authors and their affiliations</li>
                                         <li>Abstract</li>
                                         <li>Keywords</li>
-                                        <li>Introduction (can include necessary figures or tables</li>
+                                        <li>Introduction (can include necessary figures or tables)</li>
                                     </ul>
+                                    <p>Please use the template below for submitting your abstract</p>
+                                    Link : <Button variant="outline-info"><a className='text-decoration-none px-5' href={Download} download>Template Abstract</a></Button>
+                                    
                                 </Card.Text>
                             </Card.Body>
                         </Card>
