@@ -161,31 +161,58 @@ const MainThemes = ()=>{
                                     </Card>
                                 </Col>
                             </Row>
-                            <Card className='p-4'
+                            <Row>
+                                <Col>
+                                    <Card className='p-4'
+                                        style={{
+                                            border: "none"
+                                        }}>
+                                        <Card.Title style={{
+                                                    backgroundColor: "#445069",
+                                                    color: "white",
+                                                    
+                                                }}
+                                                className='px-4 py-2'>
+                                            Smart Systems:
+                                        </Card.Title>
+                                        <Card.Text>
+                                            <ul>
+                                                <li>Internet of Things (IoT) applications</li>
+                                                <li>Cyber-physical systems</li>
+                                                <li>Machine learning in smart systems</li>
+                                                <li>Smart sensors and actuators</li>
+                                                <li>Smart cities and infrastructure</li>
+                                                <li>Smart healthcare systems</li>
+                                                <li>Smart energy systems</li>
+                                                <li>Industrial IoT and Industry 4.0 applications</li>
+                                            </ul>
+                                        </Card.Text>
+                                    </Card>
+                                </Col>
+                                <Col>
+                                <Card className='p-4'
                                 style={{
                                     border: "none"
                                 }}>
-                                <Card.Title style={{
-                                            backgroundColor: "#445069",
-                                            color: "white",
-                                            
-                                        }}
-                                        className='px-4 py-2'>
-                                    Smart Systems:
-                                </Card.Title>
-                                <Card.Text>
-                                    <ul>
-                                        <li>Internet of Things (IoT) applications</li>
-                                        <li>Cyber-physical systems</li>
-                                        <li>Machine learning in smart systems</li>
-                                        <li>Smart sensors and actuators</li>
-                                        <li>Smart cities and infrastructure</li>
-                                        <li>Smart healthcare systems</li>
-                                        <li>Smart energy systems</li>
-                                        <li>Industrial IoT and Industry 4.0 applications</li>
-                                    </ul>
-                                </Card.Text>
-                            </Card>
+                                    <Card.Title style={{
+                                        backgroundColor: "#445069",
+                                        color: "white",                        
+                                    }}
+                                    className='px-4 py-2'>
+                                        Renewable Energy:
+                                    </Card.Title>
+                                    <Card.Text>
+                                        <ul>
+                                            <li>EV</li>
+                                            <li>Hidrogen</li>
+                                            <li>Biofuels</li>
+                                            <li>Fuel Cells</li>
+                                            <li>Biomass</li>
+                                        </ul>
+                                    </Card.Text>
+                                </Card>
+                                </Col>
+                            </Row>
                         </Card.Body>
                     </Card>
                 </div>

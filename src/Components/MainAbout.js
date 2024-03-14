@@ -34,7 +34,7 @@ const MainAbout = () => {
                             borderLeft: '2px'}}>
                             <Card.Body>
                                 <Card.Title className='text-center mb-5'>
-                                    <h1>WELCOME TO ICIUS2024 - THE 2024 INTERNATIONAL CONFERENCE ON INTELLIGENT UNMANNED SYSTEMS</h1>
+                                    <h1>WELCOME TO ICIUS 2024 - THE 2024 INTERNATIONAL CONFERENCE ON INTELLIGENT UNMANNED SYSTEMS</h1>
                                 </Card.Title>
                                 <Card.Text>
                                     <div className='my-5' style={{
