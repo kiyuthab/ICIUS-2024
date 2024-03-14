@@ -6,6 +6,9 @@ import Download from '../assets/file/TemplateAbstractICIUS2024rev3.docx';
 
 
 const CardAbstract = ()=>{
+    const email = 'icius2024@pptik.itb.ac.id';
+    const mailtoLink = `mailto:${email}`;
+  
     return (
         <div>
             <Container  className='p-5'>
@@ -28,6 +31,9 @@ const CardAbstract = ()=>{
                                         Abstract Submission
                                     </Button>
                                 </Link>
+                                <p  class="mt-3" style={{fontSize: '12px', textAlign: 'justify', color: 'red'}}>
+                                    <i>*When having problem uploading the abstract, the author can send the file to <Link to={mailtoLink} style={{color: 'red'}}>{email}</Link></i>
+                                </p>
                             </Card.Body>
                         </Card>
                     </Col>
